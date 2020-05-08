@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Leetcode.ContainsDuplicate.ContainsDuplicateTests-20200509-003900</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.12.1, OS=Windows 10.0.19041.208 (2004/?/20H1)
+Intel Core i5-6600K CPU 3.50GHz (Skylake), 1 CPU, 4 logical and 4 physical cores
+.NET Core SDK=3.1.200
+  [Host]     : .NET Core 3.1.2 (CoreCLR 4.700.20.6602, CoreFX 4.700.20.6702), X64 RyuJIT  [AttachedDebugger]
+  DefaultJob : .NET Core 3.1.2 (CoreCLR 4.700.20.6602, CoreFX 4.700.20.6702), X64 RyuJIT
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>       Method</th><th>len</th><th>Mean</th><th>Error</th><th>StdDev</th>
+</tr>
+</thead><tbody><tr><td>Perf_Test_Naive</td><td>100000</td><td>1.820 ms</td><td>0.0063 ms</td><td>0.0055 ms</td>
+</tr><tr><td>Perf_Test_Parallel</td><td>100000</td><td>1.838 ms</td><td>0.0349 ms</td><td>0.0327 ms</td>
+</tr><tr><td>Perf_Test_Parallel2</td><td>100000</td><td>1.893 ms</td><td>0.0100 ms</td><td>0.0089 ms</td>
+</tr><tr><td>Perf_Test_Naive</td><td>10000000</td><td>170.804 ms</td><td>2.3045 ms</td><td>2.1556 ms</td>
+</tr><tr><td>Perf_Test_Parallel</td><td>10000000</td><td>165.892 ms</td><td>1.1675 ms</td><td>1.0921 ms</td>
+</tr><tr><td>Perf_Test_Parallel2</td><td>10000000</td><td>169.233 ms</td><td>1.2079 ms</td><td>1.1299 ms</td>
+</tr></tbody></table>
+</body>
+</html>

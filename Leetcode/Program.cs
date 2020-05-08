@@ -1,5 +1,6 @@
 ﻿using System;
 using BenchmarkDotNet.Running;
+using Leetcode.ContainsDuplicate;
 using Leetcode.ReverseInteger;
 using Leetcode.RotateArray;
 using Leetcode.TwoSum;
@@ -15,8 +16,10 @@ namespace Leetcode
 
             //Console.Write(BenchmarkRunner.Run(typeof(ReverseIntegerTests)));
 
-            Console.Write(BenchmarkRunner.Run(typeof(RotateArrayTests)));
-            
+            //Console.Write(BenchmarkRunner.Run(typeof(RotateArrayTests)));
+
+            Console.Write(BenchmarkRunner.Run(typeof(ContainsDuplicateTests)));
+
             Console.ReadKey();
 
         }
