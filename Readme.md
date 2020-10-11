@@ -35,4 +35,14 @@ Problem: [https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/](htt
 
 Code: `Leetcode\RotateArray\RotateArray.cs`  
 Problem: [https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/646/](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/646/)  
-Performance report: [https://mrzoidberg.github.io/leetcode/Reports/Leetcode.RotateArray.RotateArrayTests-report.html](https://mrzoidberg.github.io/leetcode/Reports/Leetcode.RotateArray.RotateArrayTests-report.html)  
+Performance report: [https://mrzoidberg.github.io/leetcode/Reports/Leetcode.RotateArray.RotateArrayTests-report.html](https://mrzoidberg.github.io/leetcode/Reports/Leetcode.RotateArray.RotateArrayTests-report.html)
+
+## Intersection of Two Linked Lists
+
+Code: `Leetcode\IntersectionTwoLinkedLists\IntersectionTwoLinkedLists.cs`
+Problem: [https://leetcode.com/problems/intersection-of-two-linked-lists/](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+
+## Unique BST
+
+Code: `Leetcode\UniqueBST\UniqueBST.cs`
+Problem: [https://leetcode.com/problems/unique-binary-search-trees/](https://leetcode.com/problems/unique-binary-search-trees/)
